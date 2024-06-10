@@ -48,7 +48,7 @@ const ComponentExamples = () => {
   const [isDialogOpen, setIsDialogOpen] = useState(false);
 
   return (
-    <div style={{ maxWidth: "640px", margin: "1rem auto" }}>
+    <div style={{ maxWidth: "640px", padding: "0 1rem", margin: "1rem auto" }}>
       <h1>Mantine component examples</h1>
       <form>
         <Alert
